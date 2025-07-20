@@ -1,0 +1,13 @@
+{
+    "statusCode": 202,
+    "headers": {
+        "Date": "Tue, 15 Jul 2025 22:43:16 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "448",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Robots-Tag": "noindex"
+    },
+    "data": "{\"status\": \"IN_QUEUE\", \"request_id\": \"6e8a8cf2-c2ca-4636-9071-0b3ae067edb1\", \"response_url\": \"https:\/\/queue.fal.run\/fal-ai\/fast-sdxl\/requests\/6e8a8cf2-c2ca-4636-9071-0b3ae067edb1\", \"status_url\": \"https:\/\/queue.fal.run\/fal-ai\/fast-sdxl\/requests\/6e8a8cf2-c2ca-4636-9071-0b3ae067edb1\/status\", \"cancel_url\": \"https:\/\/queue.fal.run\/fal-ai\/fast-sdxl\/requests\/6e8a8cf2-c2ca-4636-9071-0b3ae067edb1\/cancel\", \"logs\": null, \"metrics\": {}, \"queue_position\": 0}",
+    "context": []
+}

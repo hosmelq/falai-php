@@ -1,0 +1,15 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "Date": "Tue, 15 Jul 2025 22:43:15 GMT",
+        "Content-Type": "application\/json",
+        "Content-Length": "253",
+        "Connection": "keep-alive",
+        "X-Fal-Served-From": "2fd1660e-3051-4cc7-bf46-01d65f75ac17",
+        "x-fal-request-id": "600f85a2-0a77-4bf4-83fc-e14a4a725fab",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Robots-Tag": "noindex"
+    },
+    "data": "{\"images\":[{\"url\":\"https:\/\/v3.fal.media\/files\/koala\/WjN4m3wzadusXhqU4X_gI.jpeg\",\"width\":1024,\"height\":1024,\"content_type\":\"image\/jpeg\"}],\"timings\":{\"inference\":2.1536334429401904},\"seed\":15738016505585340234,\"has_nsfw_concepts\":[false],\"prompt\":\"a cat\"}",
+    "context": []
+}

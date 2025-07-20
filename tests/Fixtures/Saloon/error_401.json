@@ -1,0 +1,13 @@
+{
+    "statusCode": 401,
+    "headers": {
+        "Date": "Tue, 15 Jul 2025 22:14:17 GMT",
+        "Content-Type": "application\/json; charset=utf-8",
+        "Content-Length": "114",
+        "Connection": "keep-alive",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains",
+        "X-Robots-Tag": "noindex"
+    },
+    "data": "{\"detail\": \"Cannot access application 'fal-ai\/fast-sdxl'. Authentication is required to access this application.\"}",
+    "context": []
+}

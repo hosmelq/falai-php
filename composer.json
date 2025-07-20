@@ -1,0 +1,82 @@
+{
+    "name": "hosmelq/falai",
+    "description": "The fal.ai client for PHP.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "hosmelq",
+        "ai",
+        "client",
+        "fal",
+        "fal.ai",
+        "ml",
+        "php",
+        "sdk"
+    ],
+    "authors": [
+        {
+            "name": "Hosmel Quintana",
+            "email": "hosmelq@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "hosmelq/sse-saloon": "^0.1.0",
+        "saloonphp/saloon": "^3.14",
+        "thecodingmachine/safe": "^3.3"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "laravel/pint": "^1.24",
+        "mockery/mockery": "^1.6",
+        "pestphp/pest": "^3.8",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.1",
+        "phpstan/phpstan-deprecation-rules": "^2.0",
+        "phpstan/phpstan-strict-rules": "^2.0",
+        "rector/rector": "^2.1",
+        "rector/type-perfect": "^2.1",
+        "shipmonk/composer-dependency-analyser": "^1.8",
+        "spaze/phpstan-disallowed-calls": "^4.6",
+        "thecodingmachine/phpstan-safe-rule": "^1.4",
+        "ticketswap/phpstan-error-formatter": "^1.1",
+        "tomasvotruba/type-coverage": "^2.0"
+    },
+    "suggest": {
+        "ext-sodium": "Required for webhook signature verification.",
+        "psr/simple-cache": "For caching JWKS data to improve webhook verification performance."
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "HosmelQ\\FalAI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HosmelQ\\FalAI\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true,
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        },
+        "sort-packages": true
+    },
+    "scripts": {
+        "phpstan": "phpstan analyse --configuration=phpstan.neon.dist --memory-limit=4G",
+        "pint": "pint",
+        "rector": "rector",
+        "test": "pest"
+    },
+    "scripts-descriptions": {
+        "phpstan": "Run PHPStan static analysis.",
+        "pint": "Format code using Laravel Pint.",
+        "rector": "Run Rector automated refactoring.",
+        "test": "Run the test suite using Pest."
+    },
+    "$schema": "https://getcomposer.org/schema.json"
+}
